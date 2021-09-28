@@ -10,7 +10,7 @@ class TransactionProvider with ChangeNotifier {
 
   List<Transaction> getTransaction() => transactions;
 
-  addTransaction(Transaction statement) {
+  void addTransaction(Transaction statement) {
     transactions.add(statement);
   }
 }
